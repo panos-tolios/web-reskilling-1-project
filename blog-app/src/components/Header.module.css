@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply border-primary-2;
+    @apply border-b-2;
+    @apply font-semibold;
+  }

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post-body {
+  margin: 1.25em;
+  @apply w-3/5;
+  @apply mx-auto;
+}
+
+.icon-white {
+  fill: white;
+}
+
